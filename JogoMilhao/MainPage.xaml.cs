@@ -2,23 +2,34 @@
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
 
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+	Gerenciador gerenciador;
+	public MainPage(){
+        InitializeComponent();
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
+        gerenciador = new Gerenciador(labelPergunta, Resposta01, Resposta02, Resposta03, Resposta04, Resposta05);
+        gerenciador.ProximaQuestao();
+    }
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
+    void clicouBotaoResposta01(object sender, EventArgs args){
+        gerenciador.VerificaCorreta(1);
+    }
 
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+    void clicouBotaoResposta02(object sender, EventArgs args){
+        gerenciador.VerificaCorreta(2);
+    }
+    
+    void clicouBotaoResposta03(object sender, EventArgs args){
+        gerenciador.VerificaCorreta(3);
+    }
+    
+    void clicouBotaoResposta04(object sender, EventArgs args){
+        gerenciador.VerificaCorreta(4);
+    }
+    
+    void clicouBotaoResposta05(object sender, EventArgs e){
+        gerenciador.VerificaCorreta(5);
+    }
 }
+
 

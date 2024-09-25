@@ -23,7 +23,7 @@
                                 <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
 
-                        <Frame BackgroundColor="Black"
+                        <Frame BackgroundColor="Blue"
                                Margin="10,5"
                                Grid.Row="0"
                                Grid.Column="2"> 
@@ -37,7 +37,7 @@
                                Grid.Column="2"/>
                          </Frame>
 
-                        <Frame BackgroundColor="Black"
+                        <Frame BackgroundColor="#2e2c28"
                                Margin="10,5"
                                Grid.Row="0"
                                Grid.Column="0"
@@ -53,7 +53,7 @@
                                Grid.ColumnSpan="2"/>
                          </Frame>
 
-                        <Frame BackgroundColor="Black"
+                        <Frame BackgroundColor="#2e2c28"
                                Margin="10,5"
                                Grid.Row="1"
                                Grid.Column="0"
@@ -73,12 +73,13 @@
             FontAttributes="Bold"
               FontSize="16"
               TextColor="Black"
-              BackgroundColor="Yellow"
+              BackgroundColor="orange"
               FontFamily="OpenSansSemibold"
                Grid.Row="2"
                 Grid.Column="0"
                 Grid.ColumnSpan="3"
-              Clicked="clicouBotaoResposta01"/>
+              Clicked="clicouBotaoResposta01"
+              Margin="10,5"/>
         
     <Button x:Name="Resposta02"
             FontAttributes="Bold"
@@ -89,7 +90,8 @@
               Grid.Row="3"
                 Grid.Column="0"
                 Grid.ColumnSpan="3"
-              Clicked="clicouBotaoResposta02"/>
+              Clicked="clicouBotaoResposta02"
+              Margin="10,5"/>
 
     <Button x:Name="Resposta03"
             FontAttributes="Bold"
@@ -99,6 +101,7 @@
               FontFamily="OpenSansSemibold"
               Grid.Row="4"
         Grid.Column="0"
+        Margin="10,5"
         Grid.ColumnSpan="3"
               Clicked="clicouBotaoResposta03"/>
 
@@ -109,6 +112,7 @@
               BackgroundColor="Yellow"
               FontFamily="OpenSansSemibold"
               Grid.Row="5"
+              Margin="10,5"
         Grid.Column="0"
                 Grid.ColumnSpan="3"
               Clicked="clicouBotaoResposta04"/>
@@ -120,11 +124,12 @@
               BackgroundColor="Yellow"
               FontFamily="OpenSansSemibold"
               Grid.Row="6"
+              Margin="10,5"
                 Grid.Column="0"
                 Grid.ColumnSpan="3"
               Clicked="clicouBotaoResposta05"/>
 
-                        <Frame BackgroundColor="Black"
+                        <Frame BackgroundColor="#2e2c28"
                                Margin="10,5"
                                Grid.Row="8"
                                Grid.Column="0"> 
@@ -136,19 +141,19 @@
                                 HorizontalTextAlignment="Center"/>
                         </Frame>
 
-                        <Frame BackgroundColor="Black"
+                        <Frame BackgroundColor="#2e2c28"
                                Margin="10,5"
                                Grid.Row="8"
                                Grid.Column="1"> 
 
                         <Label x:Name="Labelextra2"
-                                TextColor="White"
+                                TextColor="#2e2c28"
                                 FontSize="18"
                                 FontFamily="OpenSansSemibold"
                                 HorizontalTextAlignment="Center"/>
                         </Frame>
 
-                        <Frame BackgroundColor="Black"
+                        <Frame BackgroundColor="#2e2c28"
                                Margin="10,5"
                                Grid.Row="8"
                                Grid.Column="2">
@@ -158,6 +163,10 @@
                                 FontSize="18"
                                 FontFamily="OpenSansSemibold"
                                 HorizontalTextAlignment="Center"/>
+
+
+                        
+                                  
                         </Frame>
 
                 </Grid>

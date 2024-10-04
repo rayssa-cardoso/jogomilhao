@@ -23,6 +23,9 @@
                                 <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
 
+                <Image Source="milho.jpg"
+                          Aspect="Fill"/>
+
                         <Frame BackgroundColor="Blue"
                                Margin="10,5"
                                Grid.Row="0"

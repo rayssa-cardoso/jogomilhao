@@ -23,10 +23,8 @@
                                 <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
 
-                <Image Source="milho.jpg"
-                          Aspect="Fill"/>
-
-                        <Frame BackgroundColor="Blue"
+               
+                        <Frame BackgroundColor="#2e2c28"
                                Margin="10,5"
                                Grid.Row="0"
                                Grid.Column="2"> 
@@ -34,7 +32,7 @@
                         <Label x:Name="LabelNivel"
                                 TextColor="White"
                                 FontSize="18"
-                                FontFamily="OpenSansSemibold"
+                                FontFamily="Cream Beige.otf"
                                 HorizontalTextAlignment="Start"
                                 Grid.Row="0"
                                Grid.Column="2"/>

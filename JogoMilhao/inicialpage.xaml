@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JogoMilhao.inicialpage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="Black">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+         
+
+      <Image Source="milho.jpg"
+             Aspect="Fill"
+             Grid.RowSpan="2"/>
+
+
+        <Button Text="Iniciar Jogo "
+                TextColor="White"
+                Grid.Row="1"
+                BackgroundColor="Black"
+                BorderColor="White"
+                BorderWidth="2"
+                Clicked="botaoComecar"
+                WidthRequest="300"
+                HeightRequest="50"
+                Margin="20,10"/>
+    </Grid>
+</ContentPage>
